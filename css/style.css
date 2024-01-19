@@ -1,3 +1,23 @@
 .my-bg-grey{
     background-color: #E5E5E5;
 }
+
+.ms-test{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.ms-test-2{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.ms-height{
+    height: 100px;
+}
+
+.ms-width{
+    width: 188px;
+}
+
+.ms-height-wh{
+    height:calc(100vh - 70px ) ;
+}
