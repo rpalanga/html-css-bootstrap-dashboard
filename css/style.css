@@ -21,3 +21,6 @@
 .ms-height-wh{
     height:calc(100vh - 70px ) ;
 }
+.my-img{
+    width: 30px;
+}
