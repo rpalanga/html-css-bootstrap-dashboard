@@ -29,3 +29,16 @@
 .my-img{
     width: 30px;
 }
+
+/* Restyling */
+
+.side-bar{
+    width: 250px;
+}
+.main-content{
+    width: calc(100vw - 250px);
+}
+
+@media  screen and(min-width:992px) {
+    
+}
