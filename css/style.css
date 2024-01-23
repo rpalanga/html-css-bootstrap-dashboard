@@ -4,6 +4,7 @@
 
 .my-side-color{
     background-color: #0B1D32;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .my-side-color-2{
@@ -43,7 +44,7 @@
 }
 
 .my-img{
-    width: 30px;
+    width: 40px;
 }
 
 /* Restyling */
@@ -54,11 +55,16 @@
 .main-content{
     width: calc(100vw - 190px);
 }
+.my-logo-small{
+    width: 30px;
+}
+
+.offcanvas.offcanvas-end{
+    width: 50%;
+}
 
 @media  screen and (max-width:576px) {
-    .date{
-        display: none;⁄
-    }
+    
 }
 
 
@@ -75,6 +81,10 @@
 
     .main-content{
         width: calc(100vw - 68px);
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 100%;
     }
 }
 
