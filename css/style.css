@@ -55,6 +55,26 @@
     width: calc(100vw - 190px);
 }
 
-@media  screen and(min-width:992px) {
-    
+@media  screen and (max-width:576px) {
+    .date{
+        display: none;⁄
+    }
 }
+
+
+
+@media  screen and (max-width:992px) {
+    .side-bar{
+        width: 68px;
+    }
+    .options{
+        display: none;
+    }
+
+    /* parte del main */
+
+    .main-content{
+        width: calc(100vw - 68px);
+    }
+}
+
